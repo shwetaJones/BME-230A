@@ -1,0 +1,23 @@
+{
+"apiVersion": "V1",
+"assemblies": [
+{
+  "files": [
+    {
+      "filePath": "assembly_data_report.jsonl",
+      "fileType": "DATA_REPORT"
+    }
+  ]
+},{
+  "accession": "GCF_000888475.1",
+  "files": [
+    {
+      "filePath": "GCF_000888475.1/GCF_000888475.1_ViralProj51257_genomic.fna",
+      "fileType": "GENOMIC_NUCLEOTIDE_FASTA"
+    },
+    {
+      "filePath": "GCF_000888475.1/sequence_report.jsonl",
+      "fileType": "SEQUENCE_REPORT"
+    }
+  ]
+}]}
