@@ -1,0 +1,164 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="INGInious">
+<meta name="author" content="">
+<link rel="icon" href="/static/common/icons/favicon.ico">
+<link rel="mask-icon" href="/static/common/icons/wb.svg" color="#5E932E">
+
+<title>INGInious - Connexion</title>
+
+<!-- Bootstrap -->
+<link href="/static/common/css/bootstrap.min.css" rel="stylesheet">
+<link href="/static/common/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="/static/common/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- INGInious Style -->
+<link href="/static/webapp/css/INGInious.css" rel="stylesheet">
+
+<!-- Codemirror Style -->
+<link href="/static/common/css/codemirror.css" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="shortcut icon" href="/static/common/icons/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/static/common/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/static/common/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/static/common/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/static/common/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/static/common/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/static/common/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/static/common/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/static/common/icons/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-TileImage" content="/static/common/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/static/common/icons/browserconfig.xml">
+
+<script src="/static/common/js/libs/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/common/js/libs/jquery.form.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/common/js/codemirror/codemirror.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/common/js/codemirror/mode/meta.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/common/js/libs/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/common/js/libs/bootstrap-datetimepicker.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/common/js/libs/checked-list-group.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/common/js/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/common/js/task.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/webapp/js/webapp.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/webapp/js/studio.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/webapp/js/aggregations.js" type="text/javascript" charset="utf-8"></script>
+<script src='/static/webapp/js/jquery-sortable.min.js' type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+    CodeMirror.modeURL = "/static/common/js/codemirror/mode/%N/%N.js";
+</script>
+
+
+
+
+</head>
+
+<body role="document">
+    <div id="wrapper">
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span> <span
+                            class="icon-bar"></span> <span class="icon-bar"></span> <span
+                            class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/index"><img src="/static/common/images/header.png" alt="logo"/> INGInious</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                </div>
+            </div>
+        </div>
+    
+        <div id="main_container" class="container-fluid" role="main">
+                <div id="content" class="col-xs-12">
+                
+
+
+
+
+
+
+
+    <div class="row">
+        <div class="col-sm-5">
+            <p>
+                <h2>Hello! <small>Welcome on the INGInious platform.</small></h2>
+                INGInious allows to securely grade code made by students.
+            </p>
+            <p>Please log in to see the courses.</p>
+            
+        </div>
+        <div class="col-sm-offset-2 col-sm-5 well">
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane fade
+                    in active
+                    " id="login-0">
+                    <p>
+                        <form role="form" method="post">
+                            <input type="hidden" name="@authid" value="0"/>
+                            <div class="form-group">
+                                <label>Login</label> <input type="text" class="form-control" name="login" placeholder="Login">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Password</label> <input type="password" class="form-control" name="password" placeholder="Password">
+                            </div>
+                            
+                            <div style="margin-bottom: 5px"><div class="text-center"><a href="http://bio165.byu.edu/register">Register</a> / <a href="http://bio165.byu.edu/register#lostpasswd">Lost password?</a></div></div>
+                            <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                        </form>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                <div class="footer_push"></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="navbar navbar-default navbar-static-top" style="position:absolute; width:100%" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header" style="width: 100%">
+                    <p class="navbar-text">&copy; 2014-2017 Universit&eacute; catholique de Louvain</p>
+                    <div class="navbar-right">
+                        <p class="navbar-text">
+                            <a target="_blank" href="http://www.inginious.org" class="navbar-link">
+                                INGInious is distributed under AGPL license
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+</body>
+</html>
