@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<data>
+ <group name="Demographics">
+  <table name="Basic Information">
+   <variable name="DIAG"/>
+   <variable name="AGE"/>
+   <variable name="GEND"/>
+  </table>
+  <table name="Admission and Outcome">
+   <variable name="OUT"/>
+   <variable name="DOOUT"/>
+   <variable name="ADMREP"/>
+   <variable name="DOPREADM"/>
+   <variable name="DOADM"/>
+   <variable name="DODIS"/>
+   <variable name="DONSET"/>
+  </table>
+ </group>
+ <group name="Clinical">
+  <table name="Vital signs">
+   <variable name="TEMP"/>
+   <variable name="PSYST"/>
+   <variable name="PDIAST"/>
+   <variable name="HRATE"/>
+   <variable name="RRATE"/>
+   <variable name="OXSAT"/>
+  </table>
+  <table name="Symptoms">
+   <variable name="BGUMS"/>
+   <variable name="BNOSE"/>
+   <variable name="BSTOOL"/>
+   <variable name="BVOMIT"/>
+   <variable name="BVINJ"/>
+   <variable name="BHEMAT"/>
+   <variable name="BSPUT"/>
+   <variable name="BURINE"/>
+   <variable name="BVAG"/>
+   <variable name="BNONE"/>
+   <variable name="PABD"/>
+   <variable name="PJOINT"/>
+   <variable name="PMUSC"/>
+   <variable name="PBACK"/>
+   <variable name="PSIDE"/>
+   <variable name="PRETROS"/>
+   <variable name="POTHER"/>
+   <variable name="PNONE"/>
+   <variable name="FEVER"/>
+   <variable name="CONJCT"/>
+   <variable name="EDEMA"/>
+   <variable name="INFLA"/>
+   <variable name="RASH"/>
+   <variable name="HEADCH"/>
+   <variable name="STHROAT"/>
+   <variable name="VOMIT"/>
+   <variable name="COUGH"/>
+   <variable name="DIARR"/>
+   <variable name="WEAK"/>
+   <variable name="DIZZI"/>
+   <variable name="HEAR"/>
+   <variable name="CONV"/>
+   <variable name="CONF"/>
+   <variable name="JAUN"/>
+   <variable name="SOTHER"/>
+   <variable name="SNONE"/>
+  </table>
+  <table name="Medication">
+   <variable name="ANTIMAL"/>
+   <variable name="CEFTRI"/>
+   <variable name="PCM"/>
+   <variable name="METRO"/>
+   <variable name="ACT"/>
+   <variable name="CIPRO"/>
+   <variable name="AMPIC"/>
+   <variable name="OMEP"/>
+  </table>
+ </group>
+ <group name="Laboratory">
+  <table name="Metabolic Panel Day 1">
+   <variable name="DOPANEL_1"/>
+   <variable name="ALT_1"/>
+   <variable name="Alb_1"/>
+   <variable name="AlkPhos_1"/>
+   <variable name="AST_1"/>
+   <variable name="Ca_1"/>
+   <variable name="Cl_1"/>
+   <variable name="Cr_1"/>
+   <variable name="Glu_1"/>
+   <variable name="K_1"/>
+   <variable name="Na_1"/>
+   <variable name="Tbili_1"/>
+   <variable name="TCo2_1"/>
+   <variable name="TP_1"/>
+   <variable name="BUN_1"/>
+  </table>
+  <table name="Metabolic Panel Day 2">
+   <variable name="DOPANEL_2"/>
+   <variable name="ALT_2"/>
+   <variable name="Alb_2"/>
+   <variable name="AlkPhos_2"/>
+   <variable name="AST_2"/>
+   <variable name="Ca_2"/>
+   <variable name="Cl_2"/>
+   <variable name="Cr_2"/>
+   <variable name="Glu_2"/>
+   <variable name="K_2"/>
+   <variable name="Na_2"/>
+   <variable name="Tbili_2"/>
+   <variable name="TCo2_2"/>
+   <variable name="TP_2"/>
+   <variable name="BUN_2"/>
+  </table>
+  <table name="Metabolic Panel Day 3">
+   <variable name="DOPANEL_3"/>
+   <variable name="ALT_3"/>
+   <variable name="Alb_3"/>
+   <variable name="AlkPhos_3"/>
+   <variable name="AST_3"/>
+   <variable name="Ca_3"/>
+   <variable name="Cl_3"/>
+   <variable name="Cr_3"/>
+   <variable name="Glu_3"/>
+   <variable name="K_3"/>
+   <variable name="Na_3"/>
+   <variable name="Tbili_3"/>
+   <variable name="TCo2_3"/>
+   <variable name="TP_3"/>
+   <variable name="BUN_3"/>
+  </table>
+  <table name="Metabolic Panel Day 4">
+   <variable name="DOPANEL_4"/>
+   <variable name="ALT_4"/>
+   <variable name="Alb_4"/>
+   <variable name="AlkPhos_4"/>
+   <variable name="AST_4"/>
+   <variable name="Ca_4"/>
+   <variable name="Cl_4"/>
+   <variable name="Cr_4"/>
+   <variable name="Glu_4"/>
+   <variable name="K_4"/>
+   <variable name="Na_4"/>
+   <variable name="Tbili_4"/>
+   <variable name="TCo2_4"/>
+   <variable name="TP_4"/>
+   <variable name="BUN_4"/>
+  </table>
+  <table name="Metabolic Panel Day 5">
+   <variable name="DOPANEL_5"/>
+   <variable name="ALT_5"/>
+   <variable name="Alb_5"/>
+   <variable name="AlkPhos_5"/>
+   <variable name="AST_5"/>
+   <variable name="Ca_5"/>
+   <variable name="Cl_5"/>
+   <variable name="Cr_5"/>
+   <variable name="Glu_5"/>
+   <variable name="K_5"/>
+   <variable name="Na_5"/>
+   <variable name="Tbili_5"/>
+   <variable name="TCo2_5"/>
+   <variable name="TP_5"/>
+   <variable name="BUN_5"/>
+  </table>
+  <table name="Viral Load (qPCR) summary">
+   <variable name="PCR"/>
+   <variable name="PCR_MAX"/>
+   <variable name="PCR_MIN"/>
+   <variable name="PCR_AVE"/>
+  </table>
+  <table name="Viral Load (qPCR) day 1">
+   <variable name="DOPCR_1"/>
+   <variable name="PCR_1"/>
+  </table>
+  <table name="Viral Load (qPCR) day 2">
+   <variable name="DOPCR_2"/>
+   <variable name="PCR_2"/>
+  </table>
+  <table name="Viral Load (qPCR) day 3">
+   <variable name="DOPCR_3"/>
+   <variable name="PCR_3"/>
+  </table>
+  <table name="Viral Load (qPCR) day 4">
+   <variable name="DOPCR_4"/>
+   <variable name="PCR_4"/>
+  </table>
+  <table name="Viral Load (qPCR) day 5">
+   <variable name="DOPCR_5"/>
+   <variable name="PCR_5"/>
+  </table>
+  <table name="Viral Load (qPCR) day 6">
+   <variable name="DOPCR_6"/>
+   <variable name="PCR_6"/>
+  </table>
+ </group>
+ <group name="Sequencing">
+  <table name="Viral SNPs">
+   <variable name="SNP572"/>
+   <variable name="SNP800"/>
+   <variable name="SNP1024"/>
+   <variable name="SNP1288"/>
+   <variable name="SNP1492"/>
+   <variable name="SNP1849"/>
+   <variable name="SNP2124"/>
+   <variable name="SNP2185"/>
+   <variable name="SNP2341"/>
+   <variable name="SNP2364"/>
+   <variable name="SNP2497"/>
+   <variable name="SNP2931"/>
+   <variable name="SNP3116"/>
+   <variable name="SNP3388"/>
+   <variable name="SNP3638"/>
+   <variable name="SNP4340"/>
+   <variable name="SNP4505"/>
+   <variable name="SNP4709"/>
+   <variable name="SNP4759"/>
+   <variable name="SNP4976"/>
+   <variable name="SNP5461"/>
+   <variable name="SNP6175"/>
+   <variable name="SNP6283"/>
+   <variable name="SNP6909"/>
+   <variable name="SNP8280"/>
+   <variable name="SNP8928"/>
+   <variable name="SNP9390"/>
+   <variable name="SNP9536"/>
+   <variable name="SNP9923"/>
+   <variable name="SNP10005"/>
+   <variable name="SNP10218"/>
+   <variable name="SNP10252"/>
+   <variable name="SNP10268"/>
+   <variable name="SNP10509"/>
+   <variable name="SNP10743"/>
+   <variable name="SNP10801"/>
+   <variable name="SNP11142"/>
+   <variable name="SNP11811"/>
+   <variable name="SNP11943"/>
+   <variable name="SNP12878"/>
+   <variable name="SNP12885"/>
+   <variable name="SNP13856"/>
+   <variable name="SNP13923"/>
+   <variable name="SNP14019"/>
+   <variable name="SNP14232"/>
+   <variable name="SNP15599"/>
+   <variable name="SNP15660"/>
+   <variable name="SNP15963"/>
+   <variable name="SNP16054"/>
+   <variable name="SNP16455"/>
+   <variable name="SNP16750"/>
+   <variable name="SNP17142"/>
+   <variable name="SNP17985"/>
+   <variable name="SNP18412"/>
+   <variable name="SNP18895"/>
+  </table>
+  <table name="Allele Frequencies">
+   <variable name="AF10218"/>
+  </table>
+  <table name="Clustering">
+   <variable name="CLUST"/>
+   <variable name="MCLUST"/>
+   <variable name="SCLUST"/>
+   <variable name="MSCLUST"/>
+  </table>
+ </group>
+</data>
