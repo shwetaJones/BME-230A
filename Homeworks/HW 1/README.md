@@ -1,1 +1,1 @@
-
+The following uses Python to challenge you to create an algorithm for finding matches between a set of aligned strings. Minimal familiarity with Python is necessary, notably list and Numpy array slicing. 
